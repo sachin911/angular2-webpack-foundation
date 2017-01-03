@@ -1,0 +1,15 @@
+@import "../../node_modules/foundation-sites/assets/foundation";
+
+// styles in src/style directory are applied to the whole page
+body {
+    background: #0147A7;
+    color: #fff;
+}
+a {
+    color: #03A9F4;
+}
+
+.custom-unordered-list{
+	padding: 0;
+    list-style-type: none;
+}

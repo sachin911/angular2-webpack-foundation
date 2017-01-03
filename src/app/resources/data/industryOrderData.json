@@ -1,0 +1,6 @@
+{
+    "data":[
+        {"industry_id":"1","industry_name":"Technology", "industry_order_id":1, "sort_order":1},
+        {"industry_id":"2","industry_name":"HealthCare", "industry_order_id":2, "sort_order":2}
+    ]
+}

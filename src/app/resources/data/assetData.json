@@ -1,0 +1,8 @@
+{
+    "data":[
+        {"asset_id" : "1", "name": "Common Stock, Limited partnership", "order" : "1"},
+        {"asset_id" : "2", "name": "Total Return Swap", "order" : "2"},
+     	{"asset_id" : "3", "name": "Asset Swap", "order" : "2"},
+        {"asset_id" : "4", "name": "Bank Debt", "order" : "1"}   
+    ]
+}

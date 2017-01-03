@@ -1,0 +1,44 @@
+
+<div class="main-bgr">
+<!--     <p-dataTable [value]="discs.value">
+        <p-column field="d_id" header="d_id"></p-column>
+        <p-column field="type" header="type"></p-column>
+    </p-dataTable>
+ -->
+<!--     <span>Disclosure:</span><p-dropdown [options]="discs" [(ngModel)]="selectedDisclosure" [style]="{'width':'150px'}">
+        <template let-dd>
+            <div class="ui-helper-clearfix" style="position: relative;height: 25px;">
+                <div style="font-size:14px;margin-top:4px">{{dd.type}}</div>
+            </div>
+        </template>
+    </p-dropdown> -->
+
+<UL class="custom-unordered-list">
+    <!-- <LI>
+        <span class="first">Clients :</span>
+        <p-dropdown [options]="clients" [(ngModel)]="selectedClient"></p-dropdown>
+    </LI> -->
+    <li>
+    <span class="first">Disclosure : </span>
+    <p-dropdown [options]="discs" [(ngModel)]="selectedDisclosure"></p-dropdown>
+    </li>
+    <!-- <li>
+    <span class="first">Asset Classification : </span>
+    <p-dropdown [options]="assets" [(ngModel)]="selectedAsset"></p-dropdown>
+    </li>
+    <li>
+    <span class="first">Industry Order : </span>
+    <p-dropdown [options]="industry" [(ngModel)]="selectedIndustry"></p-dropdown>
+    </li> -->
+</UL>
+
+
+
+
+<!-- <p>Selected Client: {{selectedClient ? selectedClient.name : 'none'}}</p>
+<p>Selected Disclosure: {{selectedDisclosure ? selectedDisclosure.type : 'none'}}</p>
+<p>Selected Asset: {{selectedAsset ? selectedAsset.name : 'none'}}</p>
+<p>Selected Industry: {{selectedIndustry ? selectedIndustry.industry_name: 'none'}}</p> -->
+
+
+</div>
